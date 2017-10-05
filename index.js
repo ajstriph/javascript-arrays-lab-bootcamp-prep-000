@@ -1,7 +1,4 @@
 const app = "I don't do much."
 
 var kittens = ["Milo", "Otis", "Garfield"];
-destructivelyAppendKitten(array){
-  kittens.shift("Ralph");
-  return array;
-}
+kittens = destructivelyAppendKitten.shift("Ralph");
